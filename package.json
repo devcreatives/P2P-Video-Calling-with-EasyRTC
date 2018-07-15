@@ -1,0 +1,26 @@
+{
+  "name": "audiocvideo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "heroku-postbuild": "cd react-ui/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "engines": {
+    "node": "8.9.x"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "easyrtc": "^1.1.0",
+    "express": "^4.16.3",
+    "serve-static": "^1.13.2",
+    "socket.io": "^2.1.0"
+  }
+}
