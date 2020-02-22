@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to the "P2P Video Calling with EasyRTC" extension will be documented in this file.
+All notable changes to the "P2P Video Calling with EasyRTC" will be documented in this file.
 
 ## P2P Video Calling with EasyRTC [1.0.0] - 2019-09-01 (Released) 
 ### Added
