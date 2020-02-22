@@ -668,3 +668,8 @@ patch:
         patched: '2019-07-03T22:37:33.149Z'
     - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
         patched: '2019-07-03T22:37:33.149Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T22:37:30.529Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T22:37:30.529Z'
